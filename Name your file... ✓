@@ -1,0 +1,54 @@
+# Superstore Discount & Shipping Analysis
+
+This Power BI dashboard explores **customer behavior**, **product importance**, **discount strategies**, and **shipping modes** using the [Kaggle E-Commerce Purchase Behavior dataset](https://www.kaggle.com/datasets/thedevastator/global-superstore).
+
+The goal:  
+👉 Identify inefficiencies in pricing and logistics  
+👉 Uncover patterns tied to customer value and delivery performance
+
+---
+
+## 📊 Visuals Included + What They Show
+
+### 1. **Cost by Shipping Mode and Product Importance**
+Compares average product cost across shipment types (Flight, Road, Ship) and product priority (High, Medium, Low).  
+🔍 *Insight:* Costs were surprisingly flat — a red flag for deeper pricing review.
+
+### 2. **Customer Ratings by Product Importance**
+Stacked bar chart showing total customer ratings split by product priority.  
+🔍 *Insight:* Medium-priority products dominated both volume and ratings.
+
+### 3. **Customer Ratings Breakdown (Pie Chart)**
+Shows how much of the rating total came from each product importance level.  
+🔍 *Insight:* Medium-priority items generated over 48% of all customer reviews.
+
+### 4. **Discount Trends Across Shipping Modes (Scatter Plot)**
+Compares discounts vs. cost across shipping methods.  
+🔍 *Insight:* Some higher-cost items are still being discounted — possibly reducing margins unnecessarily.
+
+### 5. **Sales Distribution by Mode of Shipment (Treemap)**
+Treemap showing total discounts by shipment type.  
+🔍 *Insight:* Shipments dominate discount spending — worth reviewing why.
+
+---
+
+## 🧰 Tools Used
+
+- **Power BI Desktop**
+- Visuals: Bar Chart, Pie Chart, Scatter Plot, Treemap, Slicer
+- Data source: Kaggle (Excel format)
+
+---
+
+## 📁 File Info
+
+- `.pbix` file: Contains all visuals, model setup, slicers, and custom formatting.
+- This repo contains **no bootcamp or school files** — this is an independent analysis based on a Kaggle dataset.
+
+---
+
+## ✅ Next Steps
+
+- Add filters to explore trends by *on-time delivery*
+- Include calculated measures like ROI per shipping method
+- Publish interactive version via Power BI Service or Tableau Public
